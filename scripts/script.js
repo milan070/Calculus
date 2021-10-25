@@ -13,7 +13,6 @@ function liveScreen(value) {
   }
   res.value += value;
 }
-// Swaps the style sheet in order to  achieve dark mode.
 function changeTheme() {
   let darkMode = document.getElementById("dark-mode");
   let theme = document.getElementById("theme");
@@ -22,6 +21,6 @@ function changeTheme() {
     darkMode.innerHTML = "Light Mode 🌞";
   } else {
     theme.href = lightTheme;
-    darkMode.innerHTML = "Dark Mode 🌙";
+    darkMode.innerHTML = "Dark Mode 🌙 ";
   }
 }
